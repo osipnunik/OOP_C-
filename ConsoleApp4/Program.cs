@@ -50,8 +50,8 @@ namespace ConsoleApp4
             //Task2("africa", "a", "o");
             //Task3(20);
             //Task4(); 
-            //Task5();
-            Task6();
+            Task5();
+            //Task6();
         }
 
         private static void Task6()
