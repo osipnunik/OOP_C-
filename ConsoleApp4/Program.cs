@@ -1,4 +1,5 @@
-﻿using ConsoleApp4.task6;
+﻿using ConsoleApp4.task5;
+using ConsoleApp4.task6;
 using System;
 using System.Collections;
 using System.Diagnostics;
@@ -72,7 +73,7 @@ namespace ConsoleApp4
         private static void Task5()
         {
             Poligon poligon = new Rhombus();
-            poligon.draw();
+            poligon.Draw();
         }
         private static void Task4()
         {

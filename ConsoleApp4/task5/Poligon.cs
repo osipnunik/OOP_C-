@@ -2,12 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp4
+namespace ConsoleApp4.task5
 {
     abstract class Poligon
     {
-        public int side = 20;
-        public char sign = '*';
-        public abstract void draw(); 
-    }
-}
+        private int Side = 20;
+
+        private const char Sign = '*';
+        public abstract void Draw();
+        public char getSign()
+        {
+            return Sign;
+        }
+        public int getSide()
+        {
+            return Side;
+        }
+             }
+        }

@@ -1,14 +1,15 @@
-﻿using System;
+﻿using ConsoleApp4.task5;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp4
+namespace ConsoleApp4.task5
 {
     class Rhombus : Poligon
     {
-        public override void draw()
+        public override void Draw()
         {
-            int rhombus = side;
+            int rhombus = base.getSide();
             int center = rhombus / 2;
             for (int i = 0; i < rhombus; i++)
             {
@@ -18,7 +19,7 @@ namespace ConsoleApp4
                     {
                         if (j >= center - i && j <= center + i)
                         {
-                            Console.Write(sign);
+                            Console.Write(getSign());
                         }
                         else
                             Console.Write(" ");
@@ -27,7 +28,7 @@ namespace ConsoleApp4
                     {
                         if (j >= center + i - rhombus + 1 && j <= center - i + rhombus - 1)
                         {
-                            Console.Write(sign);
+                            Console.Write(getSign());
                         }
                         else
                         {
