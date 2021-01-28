@@ -1,0 +1,13 @@
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\bin\Debug\netcoreapp3.1\ConsoleApp7-10.exe
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\bin\Debug\netcoreapp3.1\ConsoleApp7-10.deps.json
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\bin\Debug\netcoreapp3.1\ConsoleApp7-10.runtimeconfig.json
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\bin\Debug\netcoreapp3.1\ConsoleApp7-10.runtimeconfig.dev.json
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\bin\Debug\netcoreapp3.1\ConsoleApp7-10.dll
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\bin\Debug\netcoreapp3.1\ConsoleApp7-10.pdb
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\obj\Debug\netcoreapp3.1\ConsoleApp7-10.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\obj\Debug\netcoreapp3.1\ConsoleApp7-10.AssemblyInfo.cs
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\obj\Debug\netcoreapp3.1\ConsoleApp7-10.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\obj\Debug\netcoreapp3.1\ConsoleApp7-10.dll
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\obj\Debug\netcoreapp3.1\ConsoleApp7-10.pdb
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\obj\Debug\netcoreapp3.1\ConsoleApp7-10.genruntimeconfig.cache
+C:\Users\PC\source\repos\ConsoleApp7-10\ConsoleApp7-10\obj\Debug\netcoreapp3.1\ConsoleApp7-10.csprojAssemblyReference.cache
