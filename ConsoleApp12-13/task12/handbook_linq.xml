@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<companies>
+  <company name="CocaCola">
+    <owner>Obama</owner>
+    <phone>095784361</phone>
+    <address>Alaska</address>
+    <activity>drinks</activity>
+  </company>
+  <company name="Adidas">
+    <owner>Cannedy</owner>
+    <phone>09578426</phone>
+    <address>Oklahoma</address>
+    <activity>dresses</activity>
+  </company>
+  <company name="Bmv">
+    <owner>Gans Christian Andersen</owner>
+    <phone>98472948724</phone>
+    <address>Berlin</address>
+    <activity>Berlin</activity>
+  </company>
+</companies>
