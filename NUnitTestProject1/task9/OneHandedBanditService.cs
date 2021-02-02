@@ -9,15 +9,25 @@ namespace NUnitTestProject1.task9
         Barrel b1 = new Barrel(); 
         Barrel b2 = new Barrel();
         Barrel b3 = new Barrel();
-        public void StartGame()
+        public bool GettingPriseOrNot()
         {
             // Create a string variable and get user input from the keyboard and store it in the variable
-           
-            if (b1.Turn() == b2.Turn() && b3.Turn() == b1.GetResult())
+            if (b1.GetResult() == b2.GetResult() && b3.GetResult() == b1.GetResult())
             {
-                //Console.WriteLine(b1.GetResult() + " " + b2.GetResult() + " " + b3.GetResult());
+                Console.WriteLine(b1.GetResult() + " " + b2.GetResult() + " " + b3.GetResult());
                 GetPrise();
+                return true;
             }
+            else
+            {
+                return false;
+            }
+        }
+        public void MakeTurnsForAllBarrel()
+        {
+            b1.Turn();
+            b2.Turn();
+            b3.Turn();
         }
         public void EnterEnterKey()
         {

@@ -11,18 +11,17 @@ namespace NUnitTestProject1
         public void Test1()
         {
             OneHandedBanditService ohbs = new OneHandedBanditService();
-            //ohbs.EnterEnterKey();
             using (StringWriter stringWriter = new StringWriter())
             {
-                //ohbs.StartGame();
                 Console.SetOut(stringWriter);
-                ohbs.StartGame();
-                
-                //All console outputs goes here
-                //Console.WriteLine("You are travelling north at a speed of 10m/s");
 
-                string consoleOutput = stringWriter.ToString();
-                Assert.AreEqual("myLine:", consoleOutput);
+                ohbs.MakeTurnsForAllBarrel();
+                bool priseRecieved = ohbs.GettingPriseOrNot();
+                if (priseRecieved)
+                {
+                    Assert.True(ohbs.GetBarrel1().GetResult().Equals(ohbs.GetBarrel2().GetResult()));
+                    Assert.True(ohbs.GetBarrel3().GetResult().Equals(ohbs.GetBarrel2().GetResult()));
+                }
             }
         }
     }
