@@ -12,7 +12,7 @@ namespace NUnitTestProjectTask11.task11
             ConsoleKeyInfo key = Console.ReadKey();
             if (key.Key == ConsoleKey.Y)
             {
-                msg.PleaAccepted(); 
+                msg.PleaAccepted();
             }
             else if (key.Key == ConsoleKey.N)
             {
