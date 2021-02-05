@@ -1,3 +1,4 @@
+using ConsoleApp12_13.task13;
 using System;
 using System.Text;
 using Xunit;
@@ -13,15 +14,6 @@ namespace XUnitTestProject1
             HandBookLinqService service = new HandBookLinqService();
             service.CreateXmlFile();    //добавление всех записей
             service.ShowAll();  //показ всех записей
-
-            /*StringBuilder sb = new StringBuilder();
-            String line;
-            while ((line = Console.ReadLine()) != null)
-            {
-                sb.Append(Console.In.ReadLine());
-            }
-
-            Console.WriteLine(sb.ToString());*/
 
             Handbook expectedCompany = new Handbook();
             expectedCompany.Name = "CocaCola";
@@ -44,6 +36,21 @@ namespace XUnitTestProject1
             service.AddCompany(company);   //pposibility of writing another
             Assert.Equal(company, service.SearchByName("Bmw"));
         }
-    
+        [Fact]
+        public void TestWorldCreation()
+        {
+            LifeAbscence lifeAbscence = new LifeAbscence();
+            lifeAbscence.WorldCreation();
+            Assert.True(lifeAbscence.Grass.Count > 0);
+            Assert.True(lifeAbscence.Rabits.Count > 0);
+            Assert.True(lifeAbscence.Rabits.Count > 0);
+        }
+        [Fact]
+        public void Test()
+        {
+
+        }
+
+
     }
 }
